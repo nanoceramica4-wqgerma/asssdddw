@@ -1,15 +1,1237 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://www.onlinie.privnatempraesas.online/">
-  <link rel="canonical" href="https://www.onlinie.privnatempraesas.online/">
-  <title>Redirigiendo...</title>
-  <script>
-    window.location.replace("https://www.onlinie.privnatempraesas.online/");
-  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>uninet gloss — Finanzas para docentes y educadores</title>
+  <meta name="description" content="Guías breves y verificables sobre presupuesto, previsión y cierre de gastos, escritas para el calendario del ciclo escolar docente." />
+  <link rel="canonical" href="https://www.uninetgloss.blog/" />
+  <meta name="author" content="Leidy Jovanna Ortiz Gutiérrez" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2315302B'/%3E%3Ccircle cx='16' cy='16' r='11' stroke='%23D9552B' stroke-width='1.8' fill='none'/%3E%3Ccircle cx='16' cy='16' r='6' stroke='%23D6A419' stroke-width='1.5' fill='none'/%3E%3Cpath d='M13 16.3l2 2 4-4.6' stroke='%23FFFFFF' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <meta property="og:title" content="uninet gloss — Finanzas para docentes y educadores" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.uninetgloss.blog/" />
+  <meta property="og:site_name" content="uninet gloss" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=Work+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+
+:root {
+  --bg: #EDF1EE;
+  --bg-alt: #E1E9E3;
+  --ink: #15302B;
+  --ink-soft: #47615A;
+  --coral: #D9552B;
+  --ochre: #D6A419;
+  --card: #FFFFFF;
+  --border: #D3DDD6;
+
+  --font-display: "Bitter", Georgia, serif;
+  --font-body: "Work Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "Space Mono", monospace;
+
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 22px;
+  --max-width: 1120px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { color: var(--coral); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.18;
+  color: var(--ink);
+  letter-spacing: -0.005em;
+}
+h1 { font-size: clamp(2rem, 4vw, 3.1rem); }
+h2 { font-size: clamp(1.4rem, 2.4vw, 1.95rem); }
+h3 { font-size: 1.2rem; }
+p { margin: 0 0 1.1em; }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--coral);
+}
+.skip-link {
+  position: absolute; left: -999px; top: 0;
+  background: var(--ink); color: #fff; padding: 10px 16px;
+  z-index: 1000; border-radius: 0 0 8px 0;
+}
+.skip-link:focus { left: 0; }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--ochre); outline-offset: 3px;
+}
+
+/* ---------- Header (oscuro, distinto al de uninet gold) ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--ink);
+  border-bottom: 3px solid var(--coral);
+}
+.site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 74px; }
+.brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 700; font-size: 1.18rem; color: #fff; }
+.brand:hover { text-decoration: none; }
+.brand-mark { width: 32px; height: 32px; flex-shrink: 0; }
+.brand small {
+  display: block; font-family: var(--font-mono); font-size: 0.58rem;
+  letter-spacing: 0.1em; color: #B9CAC3; font-weight: 400; text-transform: uppercase;
+}
+.nav-links { display: flex; align-items: center; gap: 26px; list-style: none; margin: 0; padding: 0; }
+.nav-links a { color: #D7E3DD; font-size: 0.92rem; font-weight: 500; }
+.nav-links a:hover { color: var(--ochre); text-decoration: none; }
+.nav-links a[aria-current="page"] { color: var(--ochre); }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px;
+  border-radius: 3px; font-weight: 700; font-size: 0.88rem; border: 1px solid transparent; cursor: pointer;
+  font-family: var(--font-mono); letter-spacing: 0.02em; text-transform: uppercase;
+}
+.btn-primary { background: var(--coral); color: #fff !important; }
+.btn-primary:hover { background: var(--ochre); text-decoration: none; }
+.btn-outline { border-color: #fff; color: #fff !important; }
+.btn-outline:hover { background: #fff; color: var(--ink) !important; text-decoration: none; }
+.hero .btn-outline { border-color: var(--ink); color: var(--ink) !important; }
+.hero .btn-outline:hover { background: var(--ink); color: #fff !important; }
+.nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+.nav-toggle span, .nav-toggle span::before, .nav-toggle span::after {
+  display: block; width: 22px; height: 2px; background: #fff; position: relative; transition: 0.2s;
+}
+.nav-toggle span::before, .nav-toggle span::after { content: ""; position: absolute; left: 0; }
+.nav-toggle span::before { top: -7px; }
+.nav-toggle span::after { top: 7px; }
+
+/* ---------- Hero (centrado, con sello superpuesto — distinto al split de gold) ---------- */
+.hero { padding: 70px 0 20px; text-align: center; position: relative; }
+.hero-seal { width: 150px; height: auto; margin: 0 auto 6px; }
+.hero h1 { max-width: 18ch; margin: 0 auto 20px; }
+.hero-sub { font-size: 1.12rem; color: var(--ink-soft); max-width: 52ch; margin: 0 auto 30px; }
+.hero-cta { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-bottom: 46px; }
+
+/* Stat ticker strip */
+.stat-ticker {
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 0;
+  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  margin-bottom: 6px;
+}
+.stat-item {
+  padding: 20px 34px; text-align: center; border-right: 1px solid var(--border);
+}
+.stat-item:last-child { border-right: none; }
+.stat-item .stat-num { display: block; font-family: var(--font-display); font-size: 1.5rem; color: var(--coral); }
+.stat-item .stat-label { font-family: var(--font-mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-soft); }
+
+.divider { display: flex; align-items: center; justify-content: center; margin: 0 auto; padding: 44px 0 10px; }
+.divider svg { width: 70px; height: auto; }
+
+/* ---------- Author strip ---------- */
+.author-strip {
+  margin: 34px auto 0; display: flex; align-items: center; gap: 14px;
+  padding: 14px 20px; background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius-md); max-width: 420px; text-align: left;
+}
+.author-initials {
+  width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+  background: var(--ink); color: var(--ochre);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-weight: 700; border: 2px solid var(--coral);
+}
+.author-strip .name { font-weight: 700; font-size: 0.94rem; }
+.author-strip .role { font-size: 0.8rem; color: var(--ink-soft); }
+
+section { padding: 20px 0 68px; }
+.section-head { max-width: 620px; margin: 0 auto 36px; text-align: center; }
+.section-head p { color: var(--ink-soft); }
+
+/* ---------- Article list (formato ficha, distinto de las tarjetas en grilla) ---------- */
+.article-list { display: flex; flex-direction: column; border-top: 1px solid var(--border); }
+.article-row {
+  display: grid; grid-template-columns: 64px 1fr auto; gap: 22px; align-items: center;
+  padding: 26px 8px; border-bottom: 1px solid var(--border); transition: background 0.15s;
+}
+.article-row:hover { background: var(--bg-alt); }
+.row-index {
+  font-family: var(--font-mono); font-size: 0.78rem; color: #fff; background: var(--ink);
+  width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+}
+.row-main h3 { margin: 0 0 6px; font-size: 1.12rem; }
+.row-main h3 a { color: var(--ink); }
+.row-main h3 a:hover { color: var(--coral); text-decoration: none; }
+.row-main .excerpt { margin: 0; color: var(--ink-soft); font-size: 0.92rem; max-width: 62ch; }
+.row-tag {
+  font-family: var(--font-mono); font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.07em;
+  color: var(--coral); display: block; margin-bottom: 6px;
+}
+.row-meta { text-align: right; font-size: 0.8rem; color: var(--ink-soft); white-space: nowrap; }
+.row-meta .read-link { display: inline-flex; align-items: center; gap: 5px; margin-top: 6px; font-weight: 700; font-size: 0.84rem; color: var(--coral); }
+.row-meta .read-link:hover { text-decoration: none; color: var(--ochre); }
+.row-meta .read-link svg { width: 13px; height: 13px; flex-shrink: 0; transition: transform 0.15s; }
+.row-meta .read-link:hover svg { transform: translateX(3px); }
+
+/* ---------- Value strip ---------- */
+.value-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; }
+.value-item { padding: 30px 26px; background: var(--card); }
+.value-item .num { font-family: var(--font-mono); color: var(--ochre); font-size: 0.78rem; margin-bottom: 10px; display: block; }
+
+/* ---------- CTA band ---------- */
+.cta-band { background: var(--ink); color: #fff; border-radius: var(--radius-lg); padding: 50px; text-align: center; }
+.cta-band h2 { color: #fff; margin-bottom: 12px; }
+.cta-band p { color: #C7D6CF; max-width: 50ch; margin: 0 auto 24px; }
+.cta-band .btn-primary { background: var(--ochre); color: var(--ink) !important; }
+.cta-band .btn-primary:hover { background: var(--coral); color: #fff !important; }
+
+/* ---------- Article view ---------- */
+.article-hero { padding: 44px 0 10px; }
+.breadcrumb { font-size: 0.84rem; color: var(--ink-soft); margin-bottom: 20px; }
+.breadcrumb a { color: var(--ink-soft); }
+.breadcrumb a:hover { color: var(--coral); }
+.article-hero .row-tag { margin-bottom: 16px; font-size: 0.7rem; }
+.article-hero h1 { max-width: 24ch; text-align: left; margin: 0; }
+.article-byline { display: flex; align-items: center; gap: 12px; margin: 26px 0 6px; font-size: 0.9rem; color: var(--ink-soft); }
+.article-body { max-width: 700px; margin: 0 auto; padding-top: 18px; }
+.article-body h2 { margin-top: 2.1em; margin-bottom: 0.6em; }
+.article-body h3 { margin-top: 1.7em; margin-bottom: 0.5em; }
+.article-body ul, .article-body ol { padding-left: 1.3em; color: var(--ink-soft); }
+.article-body li { margin-bottom: 0.5em; }
+.article-body blockquote {
+  margin: 2em 0; padding: 18px 24px; border-left: 4px solid var(--ochre);
+  background: var(--bg-alt); border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-family: var(--font-display); font-style: italic; color: var(--ink);
+}
+.disclaimer-box {
+  margin: 2.2em 0; padding: 18px 22px; border: 1px dashed var(--border);
+  border-radius: var(--radius-md); background: var(--card); font-size: 0.88rem; color: var(--ink-soft);
+}
+.disclaimer-box strong { color: var(--ink); }
+.author-box {
+  max-width: 700px; margin: 52px auto 0; padding: 24px; border-radius: var(--radius-md);
+  background: var(--bg-alt); display: flex; gap: 16px; align-items: flex-start;
+}
+.author-box .author-initials { width: 52px; height: 52px; font-size: 1.05rem; }
+.author-box h4 { margin: 0 0 6px; }
+.author-box p { margin: 0; font-size: 0.9rem; color: var(--ink-soft); }
+.related-nav { max-width: 700px; margin: 38px auto 0; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 0.88rem; }
+
+/* ---------- Simple pages ---------- */
+.page-hero { padding: 50px 0 8px; }
+.prose { max-width: 700px; margin: 0 auto; padding-top: 10px; }
+.prose h2 { margin-top: 1.9em; margin-bottom: 0.5em; }
+.prose h3 { margin-top: 1.4em; margin-bottom: 0.4em; }
+.prose ul { padding-left: 1.3em; color: var(--ink-soft); }
+.prose li { margin-bottom: 0.4em; }
+.updated-note { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-soft); margin-bottom: 30px; }
+
+/* ---------- Contact ---------- */
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 46px; max-width: 940px; margin: 0 auto; }
+.form-field { margin-bottom: 18px; }
+.form-field label { display: block; font-family: var(--font-mono); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; margin-bottom: 6px; }
+.form-field input, .form-field textarea {
+  width: 100%; padding: 12px 14px; border: 1px solid var(--border); border-radius: var(--radius-sm);
+  font-family: var(--font-body); font-size: 0.95rem; background: var(--card); color: var(--ink);
+}
+.form-field textarea { resize: vertical; min-height: 130px; }
+.form-note { font-size: 0.8rem; color: var(--ink-soft); margin-top: 6px; }
+.contact-info-card { background: var(--ink); color: #fff; border-radius: var(--radius-md); padding: 26px; }
+.contact-info-card dt { font-family: var(--font-mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ochre); margin-top: 16px; }
+.contact-info-card dt:first-child { margin-top: 0; }
+.contact-info-card dd { margin: 4px 0 0; font-size: 0.94rem; color: #EAF0EC; }
+.contact-info-card dd a { color: #fff; }
+.form-success { display: none; padding: 15px 18px; border-radius: var(--radius-sm); background: #E4F1E8; color: #285C3B; font-size: 0.88rem; margin-top: 16px; }
+.form-success.visible { display: block; }
+
+/* ---------- Footer (oscuro, 4 columnas — distinto del claro de 3 columnas de gold) ---------- */
+.site-footer { background: var(--ink); color: #D7E3DD; padding: 54px 0 26px; margin-top: 40px; }
+.footer-grid { display: grid; grid-template-columns: 1.3fr 0.9fr 0.9fr 1.1fr; gap: 34px; padding-bottom: 32px; border-bottom: 1px solid #294842; }
+.footer-col h4 { font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ochre); margin: 0 0 14px; }
+.footer-brand { display: flex; align-items: center; gap: 8px; font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; color: #fff; margin-bottom: 12px; }
+.footer-brand svg { width: 22px; height: 22px; }
+.footer-col p { font-size: 0.88rem; color: #A9BFB6; }
+.footer-links { list-style: none; margin: 0; padding: 0; }
+.footer-links li { margin-bottom: 9px; }
+.footer-links a { color: #A9BFB6; font-size: 0.88rem; }
+.footer-links a:hover { color: var(--ochre); }
+.footer-contact dt { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: #7E9A90; margin-top: 12px; }
+.footer-contact dt:first-child { margin-top: 0; }
+.footer-contact dd { margin: 2px 0 0; font-size: 0.88rem; color: #EAF0EC; }
+.footer-bottom { padding-top: 20px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; font-size: 0.78rem; color: #7E9A90; }
+
+/* ---------- Cookie banner ---------- */
+.cookie-banner {
+  position: fixed; bottom: 18px; left: 18px; right: 18px; max-width: 560px; margin: 0 auto;
+  background: var(--ink); color: #fff; padding: 20px 22px; border-radius: var(--radius-md);
+  box-shadow: 0 20px 44px -18px rgba(21,48,43,0.55); z-index: 200; display: none; border: 1px solid var(--coral);
+}
+.cookie-banner.visible { display: block; }
+.cookie-banner p { font-size: 0.85rem; color: #D7E3DD; margin-bottom: 14px; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions .btn { padding: 9px 16px; font-size: 0.78rem; }
+.cookie-actions .btn-ghost { background: transparent; color: #fff !important; border-color: rgba(255,255,255,0.35); }
+.cookie-actions .btn-ghost:hover { background: rgba(255,255,255,0.1); text-decoration: none; }
+
+/* ---------- Views (una sola pantalla visible a la vez) ---------- */
+.view { display: none; }
+.view.active { display: block; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .value-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .article-row { grid-template-columns: 48px 1fr; }
+  .row-meta { grid-column: 2 / 3; text-align: left; }
+}
+@media (max-width: 640px) {
+  .nav-links { display: none; }
+  .nav-toggle { display: block; }
+  .site-header.nav-open .nav-links {
+    display: flex; position: absolute; top: 74px; left: 0; right: 0; background: var(--ink);
+    flex-direction: column; align-items: flex-start; padding: 20px 24px 26px; gap: 16px;
+  }
+  .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+  .cta-band { padding: 34px 22px; }
+  .stat-item { padding: 16px 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+  html { scroll-behavior: auto; }
+}
+
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "uninet gloss",
+  "url": "https://www.uninetgloss.blog/",
+  "description": "Portal independiente de contenidos educativos sobre finanzas personales para docentes y educadores.",
+  "publisher": { "@type": "Person", "name": "Leidy Jovanna Ortiz Gutiérrez" }
+}
+</script>
 </head>
 <body>
-  <p>Redirigiendo a <a href="https://www.onlinie.privnatempraesas.online/">onlinie.privnatempraesas.online</a>...</p>
+  <a class="skip-link" href="#view-home">Saltar al contenido</a>
+  <header class="site-header" id="site-header">
+    <div class="wrap">
+      <a class="brand" href="#view-home">
+        <svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="16" cy="16" r="13" stroke="#D9552B" stroke-width="1.6"/>
+  <circle cx="16" cy="16" r="7.5" stroke="#D6A419" stroke-width="1.4"/>
+  <path d="M13 16.5l2 2 4-4.5" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        <span>uninet gloss
+          <small>Finanzas para educadores</small>
+        </span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="#view-home">Inicio</a></li>
+          <li><a href="#articulos-lista">Artículos</a></li>
+          <li><a href="#view-autor">Sobre la autora</a></li>
+          <li><a href="#view-contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-primary" href="#articulos-lista">Ver artículos</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-header" aria-label="Abrir menú">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+  <section id="view-home" class="view active">
+    <section class="hero">
+      <div class="wrap">
+        <svg class="hero-seal" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sello distintivo de uninet gloss">
+  <g stroke="#D6A419" stroke-width="1.4">
+    <line x1="100" y1="6" x2="100" y2="24"/>
+    <line x1="100" y1="176" x2="100" y2="194"/>
+    <line x1="6" y1="100" x2="24" y2="100"/>
+    <line x1="176" y1="100" x2="194" y2="100"/>
+    <line x1="32" y1="32" x2="45" y2="45"/>
+    <line x1="155" y1="155" x2="168" y2="168"/>
+    <line x1="168" y1="32" x2="155" y2="45"/>
+    <line x1="45" y1="155" x2="32" y2="168"/>
+  </g>
+  <circle cx="100" cy="100" r="62" stroke="#D9552B" stroke-width="1.8"/>
+  <circle cx="100" cy="100" r="46" stroke="#15302B" stroke-width="1.3" stroke-dasharray="3 4"/>
+  <circle cx="100" cy="100" r="30" fill="#15302B"/>
+  <path d="M86 101l10 10 20-23" stroke="#D6A419" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        <p class="eyebrow">Finanzas para docentes y educadores</p>
+        <h1>Certeza para organizar el presupuesto docente</h1>
+        <p class="hero-sub">uninet gloss reúne guías breves y verificables sobre planificación de gastos, fondos de previsión y cierre de presupuesto, escritas para el calendario real del año escolar.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#articulos-lista">Ver artículos</a>
+          <a class="btn btn-outline" href="#view-autor">Sobre la autora</a>
+        </div>
+        <div class="author-strip">
+          <div class="author-initials">LO</div>
+          <div>
+            <div class="name">Leidy Jovanna Ortiz Gutiérrez</div>
+            <div class="role">Autora y editora de uninet gloss</div>
+          </div>
+        </div>
+      </div>
+      <div class="stat-ticker">
+        <div class="stat-item"><span class="stat-num">06</span><span class="stat-label">Guías publicadas</span></div>
+        <div class="stat-item"><span class="stat-num">100%</span><span class="stat-label">Contenido firmado</span></div>
+        <div class="stat-item"><span class="stat-num">0</span><span class="stat-label">Promesas de resultado</span></div>
+      </div>
+    </section>
+
+    <div class="divider"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="20" cy="20" r="14" stroke="#D3DDD6" stroke-width="1.3"/>
+  <circle cx="20" cy="20" r="6" stroke="#D9552B" stroke-width="1.3"/>
+</svg></div>
+
+    <section id="articulos-lista">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Artículos</p>
+          <h2>Guías de organización financiera para el ciclo escolar</h2>
+          <p>Contenido divulgativo, sin promesas ni atajos: métodos concretos para planificar, prever y revisar el presupuesto docente.</p>
+        </div>
+        <div class="article-list">
+          
+        <article class="article-row">
+          <span class="row-index">01</span>
+          <div class="row-main">
+            <span class="row-tag">Planificación</span>
+            <h3><a href="#view-article-gastos-por-bimestre">Organización de gastos por bimestre escolar</a></h3>
+            <p class="excerpt">Dividir el año en bloques de dos meses, en lugar de planificar mes a mes, ayuda a anticipar mejor los períodos de mayor gasto.</p>
+          </div>
+          <div class="row-meta">
+            <span>9 de febrero de 2026</span><br>
+            <span>6 min de lectura</span>
+            <a class="read-link" href="#view-article-gastos-por-bimestre">Leer completo <svg viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="article-row">
+          <span class="row-index">02</span>
+          <div class="row-main">
+            <span class="row-tag">Previsión</span>
+            <h3><a href="#view-article-fondo-prevision-imprevistos">Cómo armar un fondo de previsión para imprevistos del año escolar</a></h3>
+            <p class="excerpt">Un método simple para reservar, mes a mes, un monto destinado a los gastos que no se pueden anticipar del todo.</p>
+          </div>
+          <div class="row-meta">
+            <span>24 de febrero de 2026</span><br>
+            <span>7 min de lectura</span>
+            <a class="read-link" href="#view-article-fondo-prevision-imprevistos">Leer completo <svg viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="article-row">
+          <span class="row-index">03</span>
+          <div class="row-main">
+            <span class="row-tag">Organización</span>
+            <h3><a href="#view-article-gastos-personales-y-aula">Separar gastos personales y gastos de aula al trabajar desde casa</a></h3>
+            <p class="excerpt">Cuando parte del trabajo docente se hace en casa, conviene trazar una línea clara entre lo que es gasto del hogar y lo que es gasto de trabajo.</p>
+          </div>
+          <div class="row-meta">
+            <span>14 de marzo de 2026</span><br>
+            <span>6 min de lectura</span>
+            <a class="read-link" href="#view-article-gastos-personales-y-aula">Leer completo <svg viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="article-row">
+          <span class="row-index">04</span>
+          <div class="row-main">
+            <span class="row-tag">Desarrollo profesional</span>
+            <h3><a href="#view-article-gastos-capacitacion-profesional">Planificación de gastos para capacitaciones y actualización profesional</a></h3>
+            <p class="excerpt">Cómo anticipar el costo de cursos, certificaciones o materiales de formación continua sin que desordenen el resto del presupuesto.</p>
+          </div>
+          <div class="row-meta">
+            <span>5 de abril de 2026</span><br>
+            <span>7 min de lectura</span>
+            <a class="read-link" href="#view-article-gastos-capacitacion-profesional">Leer completo <svg viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="article-row">
+          <span class="row-index">05</span>
+          <div class="row-main">
+            <span class="row-tag">Proyectos de aula</span>
+            <h3><a href="#view-article-gastos-proyectos-colaborativos">Organización de gastos en proyectos de aula colaborativos</a></h3>
+            <p class="excerpt">Cuando varios docentes comparten el costo de un proyecto, un registro claro evita confusiones sobre quién aportó qué y cuánto falta.</p>
+          </div>
+          <div class="row-meta">
+            <span>21 de abril de 2026</span><br>
+            <span>6 min de lectura</span>
+            <a class="read-link" href="#view-article-gastos-proyectos-colaborativos">Leer completo <svg viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="article-row">
+          <span class="row-index">06</span>
+          <div class="row-main">
+            <span class="row-tag">Cierre anual</span>
+            <h3><a href="#view-article-cierre-ano-escolar">Cierre de año escolar: revisión y planificación del siguiente presupuesto</a></h3>
+            <p class="excerpt">Una guía para revisar lo ejecutado durante el año y dejar el presupuesto del siguiente ciclo escolar mejor planteado desde el inicio.</p>
+          </div>
+          <div class="row-meta">
+            <span>30 de junio de 2026</span><br>
+            <span>8 min de lectura</span>
+            <a class="read-link" href="#view-article-cierre-ano-escolar">Leer completo <svg viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Por qué este enfoque</p>
+          <h2>Pensado para el calendario escolar, no para un mes genérico</h2>
+        </div>
+        <div class="value-grid">
+          <div class="value-item">
+            <span class="num">Calendario</span>
+            <h3>Bimestres, no meses sueltos</h3>
+            <p>Los contenidos organizan la planificación en bloques que reflejan los ritmos reales del ciclo escolar.</p>
+          </div>
+          <div class="value-item">
+            <span class="num">Método</span>
+            <h3>Pasos verificables</h3>
+            <p>Cada guía propone pasos concretos de organización y registro, sin resultados garantizados ni atajos.</p>
+          </div>
+          <div class="value-item">
+            <span class="num">Autoría</span>
+            <h3>Firmado y fechado</h3>
+            <p>Cada artículo lleva la firma de su autora y una fecha de publicación, con un criterio editorial consistente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="cta-band">
+          <h2>¿Tienes una consulta sobre algún artículo?</h2>
+          <p>Escríbenos a través del formulario de contacto; leemos y respondemos cada mensaje de forma personal.</p>
+          <a class="btn btn-primary" href="#view-contacto">Ir a contacto</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="view-article-gastos-por-bimestre" class="view">
+    <section class="article-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / <a href="#articulos-lista">Artículos</a> / Organización de gastos por bimestre escolar</p>
+        <span class="row-tag">Planificación</span>
+        <h1>Organización de gastos por bimestre escolar</h1>
+        <div class="article-byline">
+          <div class="author-initials" style="width:34px;height:34px;font-size:0.8rem;">LO</div>
+          <span>Leidy Jovanna Ortiz Gutiérrez · 9 de febrero de 2026 · 6 min de lectura</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="article-body">
+          
+<p>Planificar mes a mes funciona bien cuando los gastos son parejos, pero el calendario escolar no lo es: hay bimestres tranquilos y bimestres cargados de evaluaciones, cierres de período o actividades especiales. Organizar el presupuesto por bimestre, en lugar de mes a mes, suele ajustarse mejor a esa realidad.</p>
+
+<h2>Por qué el bimestre es una unidad más útil</h2>
+<p>Un solo mes es demasiado corto para ver patrones; un semestre es demasiado largo para ajustar a tiempo. El bimestre ofrece un punto intermedio: suficiente margen para anticipar un período cargado sin perder capacidad de reacción si algo cambia.</p>
+
+<h2>Cómo armar el presupuesto por bimestre</h2>
+<ul>
+  <li>Revisa el calendario escolar y marca qué bimestres incluyen cierres de período, evaluaciones o actividades con costo adicional.</li>
+  <li>Asigna a cada bimestre un monto total, no un monto fijo mensual repetido.</li>
+  <li>Dentro del bimestre, distribuye ese monto según lo que sabes que viene: la primera quincena puede ser más liviana y la segunda más cargada, o al revés.</li>
+</ul>
+
+<h2>Un registro simple de comparación</h2>
+<p>Al cierre de cada bimestre, compara lo planificado con lo realmente gastado. Esa comparación, repetida varias veces al año, permite calibrar mejor los montos asignados a cada bimestre siguiente en lugar de partir siempre de una estimación nueva.</p>
+
+<blockquote>Un presupuesto que respeta el calendario escolar se ajusta antes de que llegue el gasto, no después.</blockquote>
+
+<h2>Qué hacer si un bimestre se desvía</h2>
+<p>Si un bimestre termina por encima de lo planificado, conviene revisar si fue un evento puntual o un patrón que probablemente se repita el próximo año. Solo el segundo caso amerita ajustar el monto asignado a ese bimestre en adelante.</p>
+
+<div class="disclaimer-box"><strong>Nota:</strong> este contenido tiene fines exclusivamente informativos y divulgativos, y no sustituye el asesoramiento de un profesional en gestión financiera o contable.</div>
+
+        </div>
+        <div class="author-box">
+          <div class="author-initials">LO</div>
+          <div>
+            <h4>Leidy Jovanna Ortiz Gutiérrez</h4>
+            <p>Autora y editora de uninet gloss, portal dedicado a la divulgación de contenidos sobre finanzas personales para docentes y educadores. Escribe sobre organización de presupuesto aplicada al calendario del ciclo escolar.</p>
+          </div>
+        </div>
+        <div class="related-nav">
+          <a href="#view-article-cierre-ano-escolar">&larr; Cierre de año escolar: revisión y planificación del siguiente presupuesto</a>
+          <a href="#view-article-fondo-prevision-imprevistos">Cómo armar un fondo de previsión para imprevistos del año escolar &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="view-article-fondo-prevision-imprevistos" class="view">
+    <section class="article-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / <a href="#articulos-lista">Artículos</a> / Cómo armar un fondo de previsión para imprevistos del año escolar</p>
+        <span class="row-tag">Previsión</span>
+        <h1>Cómo armar un fondo de previsión para imprevistos del año escolar</h1>
+        <div class="article-byline">
+          <div class="author-initials" style="width:34px;height:34px;font-size:0.8rem;">LO</div>
+          <span>Leidy Jovanna Ortiz Gutiérrez · 24 de febrero de 2026 · 7 min de lectura</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="article-body">
+          
+<p>No todos los gastos del año escolar se pueden anticipar con precisión: un material que se daña, un traslado no planificado, una actividad de último momento. Un fondo de previsión, alimentado poco a poco, evita que esos imprevistos desordenen el resto del presupuesto cuando aparecen.</p>
+
+<h2>Empezar con un monto pequeño y constante</h2>
+<p>No hace falta destinar una suma grande desde el principio. Apartar un monto modesto pero constante cada mes, exclusivamente para este fondo, construye margen de forma sostenida sin afectar el resto de las partidas.</p>
+
+<h2>Definir qué cuenta como imprevisto</h2>
+<ul>
+  <li><strong>Sí cuenta:</strong> un gasto puntual, no planificado, que surge de una necesidad real del trabajo docente.</li>
+  <li><strong>No cuenta:</strong> un gasto que en realidad era previsible y simplemente no se planificó a tiempo.</li>
+</ul>
+<p>Esta distinción evita que el fondo se use como una partida general y pierda su función específica.</p>
+
+<h2>Reponer el fondo después de usarlo</h2>
+<p>Cada vez que el fondo se utiliza, conviene priorizar su reposición en los meses siguientes antes de asignar excedentes a otras partidas. Un fondo que no se repone deja de cumplir su propósito la próxima vez que se necesite.</p>
+
+<blockquote>La utilidad de un fondo de previsión no está en su tamaño, sino en que exista antes de que se necesite.</blockquote>
+
+<h2>Revisar el tamaño del fondo una vez al año</h2>
+<p>Con el tiempo, el registro de cuántas veces se usó el fondo y en qué montos ofrece una referencia real para decidir si el monto mensual destinado a él debe ajustarse hacia arriba o hacia abajo.</p>
+
+<div class="disclaimer-box"><strong>Nota:</strong> este contenido tiene fines exclusivamente informativos y divulgativos, y no sustituye el asesoramiento de un profesional en gestión financiera o contable.</div>
+
+        </div>
+        <div class="author-box">
+          <div class="author-initials">LO</div>
+          <div>
+            <h4>Leidy Jovanna Ortiz Gutiérrez</h4>
+            <p>Autora y editora de uninet gloss, portal dedicado a la divulgación de contenidos sobre finanzas personales para docentes y educadores. Escribe sobre organización de presupuesto aplicada al calendario del ciclo escolar.</p>
+          </div>
+        </div>
+        <div class="related-nav">
+          <a href="#view-article-gastos-por-bimestre">&larr; Organización de gastos por bimestre escolar</a>
+          <a href="#view-article-gastos-personales-y-aula">Separar gastos personales y gastos de aula al trabajar desde casa &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="view-article-gastos-personales-y-aula" class="view">
+    <section class="article-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / <a href="#articulos-lista">Artículos</a> / Separar gastos personales y gastos de aula al trabajar desde casa</p>
+        <span class="row-tag">Organización</span>
+        <h1>Separar gastos personales y gastos de aula al trabajar desde casa</h1>
+        <div class="article-byline">
+          <div class="author-initials" style="width:34px;height:34px;font-size:0.8rem;">LO</div>
+          <span>Leidy Jovanna Ortiz Gutiérrez · 14 de marzo de 2026 · 6 min de lectura</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="article-body">
+          
+<p>Cuando parte de la preparación de clases se hace en casa, los gastos del hogar y los gastos de trabajo tienden a mezclarse: la conexión a internet, la impresora, el espacio de trabajo. Trazar una línea clara entre ambos ayuda a entender qué proporción del presupuesto familiar corresponde realmente a la actividad docente.</p>
+
+<h2>Identificar los gastos compartidos</h2>
+<ul>
+  <li>Conectividad y servicios que se usan tanto para el hogar como para preparar clases.</li>
+  <li>Espacio físico dedicado a la preparación de material didáctico.</li>
+  <li>Equipos que cumplen ambas funciones, como una computadora o una impresora.</li>
+</ul>
+<p>Estos gastos no siempre pueden separarse por completo, pero sí se les puede asignar una proporción estimada de uso docente.</p>
+
+<h2>Un criterio simple para estimar la proporción</h2>
+<p>No es necesario un cálculo exacto: basta con una estimación razonable de cuántas horas a la semana se dedica al trabajo docente frente al uso general del hogar, y aplicar esa proporción a los gastos compartidos correspondientes.</p>
+
+<h2>Registrar los gastos exclusivos por separado</h2>
+<p>Los gastos que son exclusivamente de trabajo —materiales, recursos digitales de uso docente, insumos de impresión para clases— conviene registrarlos aparte desde el inicio, sin necesidad de estimar proporciones.</p>
+
+<blockquote>Lo que no se separa desde el principio es difícil de reconstruir después, cuando ya se mezcló con el resto del presupuesto.</blockquote>
+
+<h2>Revisar la proporción cada cierto tiempo</h2>
+<p>La cantidad de trabajo que se realiza desde casa puede cambiar de un período a otro. Revisar la proporción estimada cada cierto tiempo mantiene el registro alineado con la realidad actual, en lugar de una estimación que quedó desactualizada.</p>
+
+<div class="disclaimer-box"><strong>Nota:</strong> este contenido tiene fines exclusivamente informativos y divulgativos, y no sustituye el asesoramiento de un profesional en gestión financiera o contable.</div>
+
+        </div>
+        <div class="author-box">
+          <div class="author-initials">LO</div>
+          <div>
+            <h4>Leidy Jovanna Ortiz Gutiérrez</h4>
+            <p>Autora y editora de uninet gloss, portal dedicado a la divulgación de contenidos sobre finanzas personales para docentes y educadores. Escribe sobre organización de presupuesto aplicada al calendario del ciclo escolar.</p>
+          </div>
+        </div>
+        <div class="related-nav">
+          <a href="#view-article-fondo-prevision-imprevistos">&larr; Cómo armar un fondo de previsión para imprevistos del año escolar</a>
+          <a href="#view-article-gastos-capacitacion-profesional">Planificación de gastos para capacitaciones y actualización profesional &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="view-article-gastos-capacitacion-profesional" class="view">
+    <section class="article-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / <a href="#articulos-lista">Artículos</a> / Planificación de gastos para capacitaciones y actualización profesional</p>
+        <span class="row-tag">Desarrollo profesional</span>
+        <h1>Planificación de gastos para capacitaciones y actualización profesional</h1>
+        <div class="article-byline">
+          <div class="author-initials" style="width:34px;height:34px;font-size:0.8rem;">LO</div>
+          <span>Leidy Jovanna Ortiz Gutiérrez · 5 de abril de 2026 · 7 min de lectura</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="article-body">
+          
+<p>La formación continua suele tener un costo que no siempre se planifica con anticipación: cursos, certificaciones, materiales de estudio. Tratarlo como una partida propia del presupuesto, en lugar de un gasto ocasional, ayuda a sostenerlo sin que compita cada vez con otras prioridades.</p>
+
+<h2>Anticipar el calendario de formación</h2>
+<p>Muchos procesos de capacitación tienen fechas conocidas con meses de anticipación: convocatorias, períodos de inscripción, certificaciones periódicas. Revisar ese calendario al inicio del año escolar permite prever en qué meses concentrar el gasto de formación.</p>
+
+<h2>Separar formación obligatoria de formación optativa</h2>
+<ul>
+  <li><strong>Formación obligatoria:</strong> requisitos de actualización que forman parte de la actividad docente.</li>
+  <li><strong>Formación optativa:</strong> cursos o certificaciones de interés personal, no obligatorios en el corto plazo.</li>
+</ul>
+<p>Esta distinción ayuda a decidir qué gasto de formación es prioritario cuando el presupuesto del mes es ajustado.</p>
+
+<h2>Una partida fija, aunque modesta</h2>
+<p>Reservar un monto fijo mensual, por pequeño que sea, destinado exclusivamente a formación, evita depender de que sobre dinero al final del mes para poder acceder a un curso o material relevante.</p>
+
+<blockquote>La formación que se planifica con tiempo cuesta lo mismo; la que se decide de último momento suele costar más.</blockquote>
+
+<h2>Registrar el resultado, no solo el gasto</h2>
+<p>Anotar brevemente qué aportó cada capacitación a la práctica docente, junto al monto invertido, ayuda a decidir con más criterio en qué tipo de formación conviene seguir invirtiendo en los próximos períodos.</p>
+
+<div class="disclaimer-box"><strong>Nota:</strong> este contenido tiene fines exclusivamente informativos y divulgativos, y no sustituye el asesoramiento de un profesional en gestión financiera o contable.</div>
+
+        </div>
+        <div class="author-box">
+          <div class="author-initials">LO</div>
+          <div>
+            <h4>Leidy Jovanna Ortiz Gutiérrez</h4>
+            <p>Autora y editora de uninet gloss, portal dedicado a la divulgación de contenidos sobre finanzas personales para docentes y educadores. Escribe sobre organización de presupuesto aplicada al calendario del ciclo escolar.</p>
+          </div>
+        </div>
+        <div class="related-nav">
+          <a href="#view-article-gastos-personales-y-aula">&larr; Separar gastos personales y gastos de aula al trabajar desde casa</a>
+          <a href="#view-article-gastos-proyectos-colaborativos">Organización de gastos en proyectos de aula colaborativos &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="view-article-gastos-proyectos-colaborativos" class="view">
+    <section class="article-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / <a href="#articulos-lista">Artículos</a> / Organización de gastos en proyectos de aula colaborativos</p>
+        <span class="row-tag">Proyectos de aula</span>
+        <h1>Organización de gastos en proyectos de aula colaborativos</h1>
+        <div class="article-byline">
+          <div class="author-initials" style="width:34px;height:34px;font-size:0.8rem;">LO</div>
+          <span>Leidy Jovanna Ortiz Gutiérrez · 21 de abril de 2026 · 6 min de lectura</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="article-body">
+          
+<p>Cuando un proyecto de aula se organiza entre varios docentes, los gastos compartidos pueden volverse confusos si no hay un registro claro desde el inicio: quién aportó, cuánto, y para qué se usó cada monto. Un sistema simple de registro evita malentendidos y facilita cerrar cuentas al final del proyecto.</p>
+
+<h2>Definir el presupuesto total antes de empezar</h2>
+<p>Antes de que el proyecto arranque, conviene acordar entre todos los participantes un monto total estimado y cómo se dividirá el aporte: en partes iguales, según disponibilidad, o según el rol de cada uno en el proyecto.</p>
+
+<h2>Un registro compartido y accesible</h2>
+<ul>
+  <li>Fecha y concepto de cada gasto realizado.</li>
+  <li>Quién lo cubrió y con qué monto.</li>
+  <li>Saldo pendiente de cada participante frente al total acordado.</li>
+</ul>
+<p>Este registro no necesita ser complejo: una hoja compartida y accesible para todos los participantes suele ser suficiente para mantener claridad durante todo el proyecto.</p>
+
+<h2>Revisar el registro en puntos intermedios</h2>
+<p>En proyectos que se extienden varias semanas, revisar el registro en dos o tres momentos intermedios, y no solo al final, permite corregir desequilibrios en los aportes antes de que se acumulen.</p>
+
+<blockquote>Un proyecto compartido se sostiene mejor cuando el dinero es tan visible para todos como las tareas.</blockquote>
+
+<h2>Cerrar cuentas al finalizar</h2>
+<p>Al terminar el proyecto, una revisión final del registro —comparando lo aportado por cada participante con lo acordado al inicio— deja todo saldado con claridad y sirve como referencia para futuros proyectos colaborativos.</p>
+
+<div class="disclaimer-box"><strong>Nota:</strong> este contenido tiene fines exclusivamente informativos y divulgativos, y no sustituye el asesoramiento de un profesional en gestión financiera o contable.</div>
+
+        </div>
+        <div class="author-box">
+          <div class="author-initials">LO</div>
+          <div>
+            <h4>Leidy Jovanna Ortiz Gutiérrez</h4>
+            <p>Autora y editora de uninet gloss, portal dedicado a la divulgación de contenidos sobre finanzas personales para docentes y educadores. Escribe sobre organización de presupuesto aplicada al calendario del ciclo escolar.</p>
+          </div>
+        </div>
+        <div class="related-nav">
+          <a href="#view-article-gastos-capacitacion-profesional">&larr; Planificación de gastos para capacitaciones y actualización profesional</a>
+          <a href="#view-article-cierre-ano-escolar">Cierre de año escolar: revisión y planificación del siguiente presupuesto &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="view-article-cierre-ano-escolar" class="view">
+    <section class="article-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / <a href="#articulos-lista">Artículos</a> / Cierre de año escolar: revisión y planificación del siguiente presupuesto</p>
+        <span class="row-tag">Cierre anual</span>
+        <h1>Cierre de año escolar: revisión y planificación del siguiente presupuesto</h1>
+        <div class="article-byline">
+          <div class="author-initials" style="width:34px;height:34px;font-size:0.8rem;">LO</div>
+          <span>Leidy Jovanna Ortiz Gutiérrez · 30 de junio de 2026 · 8 min de lectura</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="article-body">
+          
+<p>El fin del año escolar es un buen momento para revisar el presupuesto en conjunto, no solo mes a mes. Esa mirada de cierre permite entender qué funcionó, qué se desvió y cómo empezar el siguiente ciclo con una planificación más ajustada a la experiencia real.</p>
+
+<h2>Comparar lo planificado con lo ejecutado, partida por partida</h2>
+<p>En lugar de una revisión general, conviene repasar cada partida del año por separado: cuáles se mantuvieron dentro de lo previsto, cuáles se desviaron de forma constante y cuáles tuvieron desvíos puntuales que no se repetirán.</p>
+
+<h2>Identificar los meses de mayor tensión</h2>
+<ul>
+  <li>¿Qué bimestres o meses concentraron más gasto del previsto?</li>
+  <li>¿Ese gasto correspondió a algo predecible del calendario escolar o a un imprevisto real?</li>
+  <li>¿El fondo de previsión, si existía, fue suficiente para cubrirlo?</li>
+</ul>
+<p>Estas preguntas ayudan a distinguir entre ajustes que hay que hacer en la planificación y situaciones puntuales que no necesariamente se repetirán.</p>
+
+<h2>Plantear el presupuesto del siguiente ciclo con esa información</h2>
+<p>El presupuesto del año siguiente no debería partir de cero: los montos que funcionaron bien pueden mantenerse, y los que se desviaron de forma constante conviene ajustarlos antes de que empiece el nuevo ciclo, no después de que el problema se repita.</p>
+
+<blockquote>El cierre de año no es solo un balance; es la base de la planificación del período que viene.</blockquote>
+
+<h2>Dejar el registro listo para el nuevo ciclo</h2>
+<p>Cerrar el año con un registro ordenado —qué se gastó, cuándo y por qué— facilita empezar el siguiente presupuesto con datos propios en lugar de estimaciones generales, y ahorra tiempo de organización al inicio del nuevo año escolar.</p>
+
+<div class="disclaimer-box"><strong>Nota:</strong> este contenido tiene fines exclusivamente informativos y divulgativos, y no sustituye el asesoramiento de un profesional en gestión financiera o contable.</div>
+
+        </div>
+        <div class="author-box">
+          <div class="author-initials">LO</div>
+          <div>
+            <h4>Leidy Jovanna Ortiz Gutiérrez</h4>
+            <p>Autora y editora de uninet gloss, portal dedicado a la divulgación de contenidos sobre finanzas personales para docentes y educadores. Escribe sobre organización de presupuesto aplicada al calendario del ciclo escolar.</p>
+          </div>
+        </div>
+        <div class="related-nav">
+          <a href="#view-article-gastos-proyectos-colaborativos">&larr; Organización de gastos en proyectos de aula colaborativos</a>
+          <a href="#view-article-gastos-por-bimestre">Organización de gastos por bimestre escolar &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="view-autor" class="view">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / Sobre la autora</p>
+        <p class="eyebrow">Sobre la autora</p>
+        <h1>Leidy Jovanna Ortiz Gutiérrez</h1>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="prose">
+          <div class="author-box" style="margin:0 0 30px;">
+            <div class="author-initials">LO</div>
+            <div>
+              <h4>Leidy Jovanna Ortiz Gutiérrez</h4>
+              <p>Autora y editora de uninet gloss</p>
+            </div>
+          </div>
+          <p>Leidy Jovanna Ortiz Gutiérrez es la autora y editora responsable de uninet gloss, un portal independiente dedicado a la divulgación de contenidos educativos sobre finanzas personales para docentes y educadores. Su trabajo se centra en traducir principios de organización presupuestaria a un lenguaje claro y aplicable al día a día de quienes trabajan en el ámbito educativo.</p>
+          <h2>Enfoque editorial</h2>
+          <p>Cada artículo publicado en uninet gloss sigue el mismo criterio: propuestas concretas y verificables de organización financiera, sin promesas de resultados ni recomendaciones de productos financieros específicos. El objetivo es ofrecer herramientas de planificación, no asesoría personalizada.</p>
+          <h2>Proceso de publicación</h2>
+          <ul>
+            <li>Cada guía se redacta a partir de métodos generales de organización presupuestaria de uso común.</li>
+            <li>Los contenidos se revisan periódicamente para mantener su vigencia.</li>
+            <li>Toda publicación queda firmada y fechada, y puede corregirse si la autora detecta una imprecisión.</li>
+          </ul>
+          <h2>Contacto</h2>
+          <p>Para consultas, sugerencias de temas o correcciones sobre cualquier artículo, puedes escribir a través de la <a href="#view-contacto">página de contacto</a> o directamente a <a href="mailto:soporte@uninetgloss.blog">soporte@uninetgloss.blog</a>.</p>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="view-contacto" class="view">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / Contacto</p>
+        <p class="eyebrow">Contacto</p>
+        <h1>Escríbenos</h1>
+        <p style="max-width:60ch;color:var(--ink-soft);">¿Tienes una pregunta sobre algún artículo o una sugerencia de tema? Completa el formulario o escríbenos directamente por correo.</p>
+      </div>
+    </section>
+    <section>
+      <div class="wrap contact-grid">
+        <div>
+          <form id="contact-form" autocomplete="off" novalidate>
+            <div class="form-field">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" autocomplete="off" required />
+            </div>
+            <div class="form-field">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" autocomplete="off" required />
+            </div>
+            <div class="form-field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            <p class="form-note">Nunca solicitamos datos bancarios ni contraseñas por este medio. Si recibes un mensaje pidiéndolos en nuestro nombre, repórtalo a soporte@uninetgloss.blog.</p>
+            <div class="form-success" id="form-success" role="status">Se abrirá tu programa de correo con el mensaje ya redactado para enviarlo a soporte@uninetgloss.blog. Si no se abre automáticamente, escríbenos directamente a esa dirección.</div>
+          </form>
+        </div>
+        <div class="contact-info-card">
+          <dl>
+            <dt>Autora responsable</dt>
+            <dd>Leidy Jovanna Ortiz Gutiérrez</dd>
+            <dt>Correo</dt>
+            <dd><a href="mailto:soporte@uninetgloss.blog">soporte@uninetgloss.blog</a></dd>
+            <dt>Teléfono</dt>
+            <dd>+591 76664066</dd>
+            <dt>Dirección</dt>
+            <dd>Radial Castilla 1187, Santa Cruz de la Sierra, Bolivia</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="view-legal-privacidad" class="view">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / Política de privacidad</p>
+        <h1>Política de privacidad</h1>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="prose">
+          
+<p class="updated-note">Última actualización: junio de 2026</p>
+<p>Esta política describe qué datos recopila uninet gloss a través de www.uninetgloss.blog y cómo se utilizan.</p>
+
+<h2>1. Responsable del tratamiento</h2>
+<p>El responsable del tratamiento de los datos recopilados en este sitio es Leidy Jovanna Ortiz Gutiérrez, con domicilio en Radial Castilla 1187, Santa Cruz de la Sierra, Bolivia y correo de contacto soporte@uninetgloss.blog.</p>
+
+<h2>2. Datos que recopilamos</h2>
+<ul>
+  <li>Datos que el usuario proporciona voluntariamente al completar el formulario de contacto: nombre, correo electrónico y mensaje.</li>
+  <li>Datos técnicos de navegación recopilados mediante cookies, según se detalla en nuestra <a href="#view-legal-cookies">política de cookies</a>.</li>
+</ul>
+<p>No solicitamos ni almacenamos datos bancarios, contraseñas ni documentos de identidad a través de este sitio.</p>
+
+<h2>3. Finalidad del tratamiento</h2>
+<p>Los datos del formulario de contacto se utilizan exclusivamente para responder a la consulta enviada. Los datos técnicos de navegación se utilizan para medir el rendimiento del sitio y mejorar su contenido.</p>
+
+<h2>4. Conservación de los datos</h2>
+<p>Los mensajes recibidos por correo se conservan el tiempo necesario para atender la consulta y, posteriormente, se eliminan de forma periódica.</p>
+
+<h2>5. Derechos del usuario</h2>
+<p>Puedes solicitar en cualquier momento el acceso, la rectificación o la eliminación de tus datos escribiendo a soporte@uninetgloss.blog.</p>
+
+<h2>6. Publicidad y proveedores externos</h2>
+<p>Este sitio muestra anuncios a través de Google AdSense y puede utilizar Google Analytics para medir el tráfico. Google, como proveedor externo, utiliza cookies para mostrar anuncios en función de las visitas del usuario a este y otros sitios web.</p>
+<ul>
+  <li>Puedes revisar y ajustar tus preferencias de anuncios personalizados de Google en <a href="https://adssettings.google.com" rel="noopener" target="_blank">adssettings.google.com</a>.</li>
+  <li>También puedes gestionar las preferencias de publicidad basada en intereses de otros proveedores en <a href="http://www.aboutads.info/choices/" rel="noopener" target="_blank">aboutads.info/choices</a>.</li>
+  <li>Puedes bloquear o eliminar estas cookies desde la configuración de tu navegador en cualquier momento.</li>
+</ul>
+<p>Estos servicios pueden establecer sus propias cookies conforme a sus políticas de privacidad, que son independientes de la presente y pueden consultarse directamente en los sitios de cada proveedor.</p>
+
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="view-legal-terminos" class="view">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / Términos y condiciones</p>
+        <h1>Términos y condiciones</h1>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="prose">
+          
+<p class="updated-note">Última actualización: junio de 2026</p>
+<p>El acceso y uso de www.uninetgloss.blog implica la aceptación de los siguientes términos.</p>
+
+<h2>1. Objeto del sitio</h2>
+<p>uninet gloss es un portal de carácter informativo y divulgativo sobre finanzas personales para docentes y educadores. El contenido publicado tiene fines educativos y no constituye asesoramiento financiero, legal ni profesional de ningún tipo.</p>
+
+<h2>2. Uso del contenido</h2>
+<p>Los artículos pueden citarse o compartirse indicando la fuente y el autor. No está permitida su reproducción total con fines comerciales sin autorización previa.</p>
+
+<h2>3. Exactitud de la información</h2>
+<p>Se procura que la información publicada sea precisa y esté actualizada, pero no se garantiza que esté libre de errores u omisiones. Se recomienda contrastar cualquier decisión relevante con un profesional cualificado.</p>
+
+<h2>4. Enlaces a terceros</h2>
+<p>Este sitio puede incluir enlaces a páginas externas. uninet gloss no se responsabiliza por el contenido ni las prácticas de privacidad de esos sitios.</p>
+
+<h2>5. Modificaciones</h2>
+<p>Estos términos pueden actualizarse periódicamente. La versión vigente es siempre la publicada en esta página.</p>
+
+<h2>6. Ley aplicable</h2>
+<p>Estos términos se rigen por la legislación aplicable en el domicilio del responsable del sitio, indicado en el <a href="#view-legal-aviso-legal">aviso legal</a>.</p>
+
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="view-legal-aviso-legal" class="view">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / Aviso legal</p>
+        <h1>Aviso legal</h1>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="prose">
+          
+<p class="updated-note">Última actualización: junio de 2026</p>
+<h2>1. Datos identificativos</h2>
+<ul>
+  <li><strong>Titular del sitio:</strong> Leidy Jovanna Ortiz Gutiérrez</li>
+  <li><strong>Domicilio:</strong> Radial Castilla 1187, Santa Cruz de la Sierra, Bolivia</li>
+  <li><strong>Correo de contacto:</strong> soporte@uninetgloss.blog</li>
+  <li><strong>Teléfono:</strong> +591 76664066</li>
+  <li><strong>Sitio web:</strong> www.uninetgloss.blog</li>
+</ul>
+
+<h2>2. Naturaleza del sitio</h2>
+<p>uninet gloss es un portal independiente de carácter divulgativo dedicado a la publicación de contenidos educativos e informativos sobre finanzas personales para docentes y educadores. No presta servicios financieros, no gestiona productos de terceros y no realiza intermediación de ningún tipo.</p>
+
+<h2>3. Propiedad intelectual</h2>
+<p>Los textos, el diseño y los elementos gráficos de este sitio son propiedad de Leidy Jovanna Ortiz Gutiérrez, salvo que se indique lo contrario. Su reproducción total o parcial requiere autorización previa.</p>
+
+<h2>4. Responsabilidad sobre el contenido</h2>
+<p>El contenido publicado tiene un carácter exclusivamente divulgativo. uninet gloss no se responsabiliza por decisiones tomadas a partir de la información aquí publicada; se recomienda siempre contrastar con un profesional cualificado.</p>
+
+<h2>5. Legislación aplicable</h2>
+<p>El presente aviso legal se rige por la legislación vigente en el domicilio indicado en el punto 1.</p>
+
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="view-legal-cookies" class="view">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="breadcrumb"><a href="#view-home">Inicio</a> / Política de cookies</p>
+        <h1>Política de cookies</h1>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="prose">
+          
+<p class="updated-note">Última actualización: junio de 2026</p>
+<p>Este sitio utiliza cookies propias y de terceros. A continuación se explica qué son, para qué se usan y cómo puedes gestionarlas.</p>
+
+<h2>1. ¿Qué son las cookies?</h2>
+<p>Las cookies son pequeños archivos que se almacenan en tu navegador al visitar un sitio web. Permiten recordar preferencias y recopilar información sobre cómo se utiliza el sitio.</p>
+
+<h2>2. Tipos de cookies que utilizamos</h2>
+<ul>
+  <li><strong>Cookies técnicas:</strong> necesarias para el funcionamiento básico del sitio, como recordar tu elección sobre el aviso de cookies.</li>
+  <li><strong>Cookies analíticas:</strong> utilizadas para medir el tráfico y el rendimiento de los contenidos, de forma agregada.</li>
+  <li><strong>Cookies de terceros:</strong> pueden ser establecidas por servicios de publicidad o análisis integrados en el sitio.</li>
+</ul>
+
+<h2>3. Gestión de cookies</h2>
+<p>Puedes aceptar o rechazar las cookies no esenciales desde el banner que aparece en tu primera visita, o modificar la configuración de tu navegador en cualquier momento para bloquear o eliminar cookies ya almacenadas.</p>
+
+<h2>4. Cambios en esta política</h2>
+<p>Esta política puede actualizarse para reflejar cambios en los servicios utilizados por el sitio. La fecha de última actualización se indica al inicio de esta página.</p>
+
+        </div>
+      </div>
+    </section>
+  </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand"><svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="16" cy="16" r="13" stroke="#D9552B" stroke-width="1.6"/>
+  <circle cx="16" cy="16" r="7.5" stroke="#D6A419" stroke-width="1.4"/>
+  <path d="M13 16.5l2 2 4-4.5" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> uninet gloss</div>
+          <p>uninet gloss es un portal independiente dedicado a la divulgación de contenidos educativos e informativos sobre finanzas personales para docentes y educadores. Todos los artículos son de carácter divulgativo.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+          <li><a href="#view-legal-privacidad">Política de privacidad</a></li>
+          <li><a href="#view-legal-terminos">Términos y condiciones</a></li>
+          <li><a href="#view-legal-aviso-legal">Aviso legal</a></li>
+          <li><a href="#view-legal-cookies">Política de cookies</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explorar</h4>
+          <ul class="footer-links">
+            <li><a href="#view-home">Inicio</a></li>
+            <li><a href="#articulos-lista">Artículos</a></li>
+            <li><a href="#view-autor">Sobre la autora</a></li>
+            <li><a href="#view-contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <h4>Contacto</h4>
+          <dl>
+            <dt>Autora responsable</dt>
+            <dd>Leidy Jovanna Ortiz Gutiérrez</dd>
+            <dt>Dirección</dt>
+            <dd>Radial Castilla 1187, Santa Cruz de la Sierra, Bolivia</dd>
+            <dt>Correo</dt>
+            <dd><a href="mailto:soporte@uninetgloss.blog">soporte@uninetgloss.blog</a></dd>
+            <dt>Teléfono</dt>
+            <dd>+591 76664066</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 uninet gloss. Todos los derechos reservados.</span>
+        <span>www.uninetgloss.blog</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
+    <p>Usamos cookies propias y de terceros para el funcionamiento del sitio y para medir el rendimiento de los contenidos. Puedes aceptarlas, rechazar las no esenciales o leer más en nuestra <a href="#view-legal-cookies">política de cookies</a>.</p>
+    <div class="cookie-actions">
+      <button class="btn btn-primary" id="cookie-accept">Aceptar todas</button>
+      <button class="btn btn-ghost" id="cookie-reject">Rechazar no esenciales</button>
+    </div>
+  </div>
+
+<script>
+  (function () {
+    var views = Array.prototype.slice.call(document.querySelectorAll('.view'));
+    var header = document.getElementById('site-header');
+
+    function showFromHash() {
+      var hash = window.location.hash || '#view-home';
+      var targetViewId = 'view-home';
+      if (hash.indexOf('#view-') === 0) { targetViewId = hash.slice(1); }
+      var found = false;
+      views.forEach(function (v) {
+        if (v.id === targetViewId) { v.classList.add('active'); found = true; }
+        else { v.classList.remove('active'); }
+      });
+      if (!found) { document.getElementById('view-home').classList.add('active'); }
+      window.scrollTo(0, 0);
+      header.classList.remove('nav-open');
+      var toggle = document.getElementById('nav-toggle');
+      if (toggle) toggle.setAttribute('aria-expanded', 'false');
+      if (hash.indexOf('#view-') !== 0 && hash.length > 1) {
+        var el = document.querySelector(hash);
+        if (el) { setTimeout(function () { el.scrollIntoView({behavior: 'smooth'}); }, 30); }
+      }
+    }
+
+    window.addEventListener('hashchange', showFromHash);
+    showFromHash();
+
+    var toggle = document.getElementById('nav-toggle');
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        var open = header.classList.toggle('nav-open');
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }
+
+    var banner = document.getElementById('cookie-banner');
+    var accept = document.getElementById('cookie-accept');
+    var reject = document.getElementById('cookie-reject');
+    try {
+      var consent = localStorage.getItem('uninetgloss_cookie_consent');
+      if (!consent && banner) banner.classList.add('visible');
+    } catch (e) {}
+    function setConsent(value) {
+      try { localStorage.setItem('uninetgloss_cookie_consent', value); } catch (e) {}
+      if (banner) banner.classList.remove('visible');
+    }
+    if (accept) accept.addEventListener('click', function () { setConsent('accepted'); });
+    if (reject) reject.addEventListener('click', function () { setConsent('rejected'); });
+
+    var form = document.getElementById('contact-form');
+    var success = document.getElementById('form-success');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        var nombre = document.getElementById('nombre').value;
+        var correo = document.getElementById('correo').value;
+        var mensaje = document.getElementById('mensaje').value;
+        var asunto = encodeURIComponent('Mensaje desde uninet gloss — ' + nombre);
+        var cuerpo = encodeURIComponent(mensaje + '\n\nCorreo de respuesta: ' + correo);
+        window.location.href = 'mailto:soporte@uninetgloss.blog?subject=' + asunto + '&body=' + cuerpo;
+        success.classList.add('visible');
+        form.reset();
+      });
+    }
+  })();
+</script>
+
 </body>
 </html>
